@@ -1,0 +1,12 @@
+### 회원 조회
+GET http://localhost:8080/valid/users/1
+### 회원 등록
+POST http://localhost:8080/valid/users
+content-type: application/json
+
+{
+  "id":"user0099999999999",
+  "pwd":"PASSWORD00",
+  "name":"0user0",
+  "enrolledDate": "2020-01-01"
+}

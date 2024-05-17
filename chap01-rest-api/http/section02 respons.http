@@ -1,0 +1,26 @@
+GET http://localhost:8080/entity/users
+###
+GET http://localhost:8080/entity/users/3
+
+###
+POST http://localhost:8080/entity/users
+content-type: application/json
+
+{
+"id":"user00",
+"pwd":"pwd00",
+"name":"0user0"
+}
+###
+PUT http://localhost:8080/entity/users/5
+content-type: application/json
+
+{
+  "id":"user001",
+  "pwd":"pwd001",
+  "name":"10user01"
+}
+###
+DELETE http://localhost:8080/entity/users/5
+
+
