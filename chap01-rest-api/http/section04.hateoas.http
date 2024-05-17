@@ -1,2 +1,0 @@
-### 유저목록 조회
-GET http://localhost:8080/hateoas/users
